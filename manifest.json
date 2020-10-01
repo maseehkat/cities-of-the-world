@@ -3,7 +3,7 @@
     "short_name": "Cities",
     "description": "A simple information app created by @MaseehKat using HTML, CSS and JavaScript",
 
-    "start_url": "/",
+    "start_url": ".",
     "lang": "English",
 
     "background_color": "#ffffff",
