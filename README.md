@@ -1,2 +1,1 @@
-# cities-of-the-world
- 
+Cities of the World
