@@ -3,7 +3,6 @@ var i;
 
 for (i = 0; i < cardToggle.length; i++) {
     cardToggle[i].addEventListener("click", function() {
-        // this.classList.toggle("card-collapsed")
 
         var collapsibleContent = this.nextElementSibling;
 
