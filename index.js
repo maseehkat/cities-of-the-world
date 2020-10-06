@@ -1,7 +1,3 @@
-document.body.addEventListener('touchmove',function(event){
-    event.preventDefault();
-  });
-
 var cardToggle = document.getElementsByClassName("card-toggle");
 var i;
 
