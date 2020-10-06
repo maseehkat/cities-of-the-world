@@ -50,6 +50,16 @@ body {
     top: 13px;
 }
 
+.header-bar-content .reload {
+    color: #33691E;
+    text-decoration: none;
+    cursor: pointer;
+
+    position: absolute;
+    right: 13px;
+    top: 18px;
+}
+
 /* FEATURED IMAGE */
 
 .featured-image {
