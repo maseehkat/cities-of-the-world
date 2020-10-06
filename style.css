@@ -23,9 +23,9 @@ body {
 
     display: table;
     text-align: center;
-    background-color: #AB47BC; /* Material 400 */
+    background-color: #9CCC65; /* Material 400 */
 
-    border-bottom: 2px solid #6A1B9A; /* Material 800 */
+    border-bottom: 2px solid #558B2F; /* Material 800 */
 }
 
 .header-bar-content {
@@ -37,7 +37,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
 
-    color: #4A148C; /* Material 900 */
+    color: #33691E; /* Material 900 */
 }
 
 .header-bar-content a {
@@ -50,6 +50,7 @@ body {
 }
 
 .header-bar-content .reload {
+    color: #33691E;
     text-decoration: none;
     cursor: pointer;
 
