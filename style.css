@@ -2,12 +2,9 @@
     margin: 0;
 }
 
-html {
-
-}
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: #424242;
     background-color: #FAFAFA;
@@ -41,12 +38,13 @@ body {
 }
 
 .header-bar-content a {
+    color: #33691E;
     font-size: 21px;
     text-decoration: none;
 
     position: absolute;
     left: 13px;
-    top: 13px;
+    top: 11px;
 }
 
 .header-bar-content .reload {
@@ -57,6 +55,108 @@ body {
     position: absolute;
     right: 13px;
     top: 18px;
+}
+
+/* HOME CARDS */
+
+.home-card {
+    text-decoration: none;
+    color: #424242;
+}
+
+.home-card .card-image {
+    height: 150px;
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home-card .card-content {
+    padding: 15px;
+}
+
+.home-card .card-content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.home-card .card-content h2 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+/* HOME LIST */
+
+.home-list .list-item {
+    text-decoration: none;
+    color: #424242;
+
+    padding: 15px 15px 0px 15px;
+
+    display: table;
+}
+
+.home-list .list-item:last-child {
+    padding-bottom: 13px;
+}
+
+.home-list .list-image {
+    display: table-cell;
+    vertical-align: middle;
+
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; */
+}
+
+.home-list .list-image img {
+    width: 75px;
+    height: auto;
+
+    border-radius: 10px;
+}
+
+.home-list .list-item:first-child .list-image {
+    /* border-top-left-radius: 5px; */
+}
+
+.home-list .list-item:last-child .list-image {
+    /* border-bottom-left-radius: 5px; */
+}
+
+.home-list .list-content {
+    padding-right: 15px;
+    display: table-cell;
+    vertical-align: middle;
+
+    /* border-bottom: 1px solid #E0E0E0; */
+}
+
+.home-list .list-content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.home-list .list-content h4 {
+    padding-bottom: 5px;
+    font-weight: 700;
 }
 
 /* FEATURED IMAGE */
@@ -89,9 +189,9 @@ body {
     padding-left: 10px;
 }
 
-/* CARDS */
+/* PAGE CARDS */
 
-.card {
+.card, .list {
     margin: 7px 7px 12px 7px;
     background-color: #ffffff;
     border-radius: 5px;
