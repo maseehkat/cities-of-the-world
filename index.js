@@ -27,7 +27,7 @@ for (i = 0; i < cardToggle.length; i++) {
 //     if (collapsibleContent.style.maxHeight) {
 //         collapsibleContent.style.maxHeight = null;
 
-//         heading.classList.toggle("card-collapsed");
+        // heading.classList.toggle("card-collapsed");
 //     } else {
 //         collapsibleContent.style.maxHeight = collapsibleContent.scrollHeight + "px";
 
