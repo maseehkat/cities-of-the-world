@@ -10,6 +10,36 @@ body {
     background-color: #FAFAFA;
 }
 
+@font-face {
+    src: url(fonts/Al%20Qalam%20Quran%20Majeed%202.ttf);
+    font-family: arabic;
+}
+
+@font-face {
+    src: url(fonts/tradbdo.ttf);
+    font-family: arabic2;
+}
+
+@font-face {
+    src: url(fonts/noorehira.ttf);
+    font-family: arabic3;
+}
+
+@font-face {
+    src: url(fonts/pdms-saleem-quranfont.ttf);
+    font-family: arabic4;
+}
+
+@font-face {
+    src: url(fonts/calibrii.ttf);
+    font-family: arabic5;
+}
+
+@font-face {
+    src: url(fonts/Amiri-Regular.ttf);
+    font-family: arabic7;
+}
+
 /* HEADER BAR */
 
 .header-bar {
