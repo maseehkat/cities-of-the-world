@@ -345,3 +345,10 @@ body {
     font-family: 'Font Awesome 5 Free';
     float: right;
 }
+
+.small-noon {
+    width: 2.5vw;
+    position: relative;
+    top: 17px;
+    /* background-color: blue; */
+}
